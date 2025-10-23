@@ -1,0 +1,41 @@
+header {
+  position: sticky;
+  top: 0;
+  background-color: var(--verde);
+  z-index: 999;
+  padding: 15px 0;
+}
+
+.cabecalho-conteudo {
+  max-width: 1200px; 
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.logo {
+  max-width: 150px;
+  height: auto;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 150px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: var(--azul);
+  font-family: var(--fonte-principal);
+  font-size: 50px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.menu a:hover {
+  color: var(--rosa);
+}

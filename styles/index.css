@@ -1,0 +1,32 @@
+body{
+    background-color: var(--preto);
+}
+
+.container{
+  background-color: rgba(203, 93, 159);
+  border:5px solid var(--rosa);
+  border-radius: 20px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color:var(--branco);
+ }
+
+ .container-imagem{
+  width: 50%;
+  align-items: center;
+  margin:auto;
+  margin-left: 90px;
+ }
+
+ .container-conteudo{
+  width: 50%;
+  font-family: var(--fonte-textos);
+  margin-bottom: 10px;
+  }
+
+  .container-mapa{
+    margin-top:50px;
+  }

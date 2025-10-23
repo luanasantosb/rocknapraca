@@ -1,0 +1,28 @@
+.container{
+  background-color: rgba(203, 93, 159);
+  border:5px solid var(--rosa);
+  border-radius: 20px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color:var(--branco);
+ }
+ h2{
+  margin-top: 20px;
+  color:var(--branco);
+  font-family: var(--fonte-principal);
+  font-size: 50px;
+  margin-left: 40px;
+}
+h3{
+    margin-top: 20px;
+    color:var(--amarelo);
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    margin-left: 10px;
+}
+p{
+    color: var(--branco);
+}

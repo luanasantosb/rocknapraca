@@ -1,0 +1,18 @@
+ body {
+  background-color: var(--preto);
+  }
+
+  h2{
+  margin-top: 20px;
+  color:var(--branco);
+  font-family: var(--fonte-principal);
+  font-size: 50px;
+  margin-left: 40px;
+}
+
+p{
+  margin-left:20px;
+  font-family: var(--fonte-textos);
+  font-size: 20px;
+  color: var(--branco);
+}
